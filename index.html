@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div id="main">
         <div class="header">
@@ -59,6 +61,7 @@
                 </ul>
                 <div class="cart-icon">
                     <i class="fa-solid fa-cart-shopping"></i>
+                    <span onclick="addItem()" class="count-cart" value="0">0</span>
                 </div>
             </div>
         </div>
@@ -83,12 +86,12 @@
                 <div class="product-item">
                     <div class="box-product">
                         <a href="">
-                            <img src="./assets/img/product-img.jpg" alt="">
+                            <img src="./assets/img/s1.jpg" alt="">
                         </a>
                         <span class="view-detail">xem trước</span>
                         <div class="product-description">
                             <a href="">
-                                <h3>AF1 GUCCI STYLE</h3>
+                                <h3>AIR FORCE 1 GUCCI STYLE</h3>
                             </a>
                             <p class="price-product">
                                 <span>3.800.000 VNĐ</span>
@@ -101,12 +104,48 @@
                 <div class="product-item">
                     <div class="box-product">
                         <a href="">
-                            <img src="./assets/img/product-img.jpg" alt="">
+                            <img src="./assets/img/s2.jpg" alt="">
                         </a>
                         <span class="view-detail">xem trước</span>
                         <div class="product-description">
                             <a href="">
-                                <h3>AF1 GUCCI STYLE</h3>
+                                <h3>AIR FORCE 1 SAIL DENIM </h3>
+                            </a>
+                            <p class="price-product">
+                                <span>3.000.000 VNĐ</span>
+                            </p>
+                            <span class="new">new</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="box-product">
+                        <a href="">
+                            <img src="./assets/img/s3.jpg" alt="">
+                        </a>
+                        <span class="view-detail">xem trước</span>
+
+                        <div class="product-description">
+                            <a href="">
+                                <h3>NIKE BLAZER MID COLOR</h3>
+                            </a>
+                            <p class="price-product">
+                                <span>2.100.000 VNĐ</span>
+                            </p>
+                            <span class="new">new</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="box-product">
+                        <a href="">
+                            <img src="./assets/img/s4.jpg" alt="">
+                        </a>
+                        <span class="view-detail">xem trước</span>
+
+                        <div class="product-description">
+                            <a href="">
+                                <h3>AIR FORCE 1 REVEAL PASTEL</h3>
                             </a>
                             <p class="price-product">
                                 <span>3.800.000 VNĐ</span>
@@ -119,16 +158,33 @@
                 <div class="product-item">
                     <div class="box-product">
                         <a href="">
-                            <img src="./assets/img/product-img.jpg" alt="">
+                            <img src="./assets/img/s5.jpg" alt="">
                         </a>
                         <span class="view-detail">xem trước</span>
 
                         <div class="product-description">
                             <a href="">
-                                <h3>AF1 GUCCI STYLE</h3>
+                                <h3>JORDAN 1 MID BANNED</h3>
                             </a>
                             <p class="price-product">
-                                <span>3.800.000 VNĐ</span>
+                                <span>4.750.000 VNĐ</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="box-product">
+                        <a href="">
+                            <img src="./assets/img/s6.jpg" alt="">
+                        </a>
+                        <span class="view-detail">xem trước</span>
+
+                        <div class="product-description">
+                            <a href="">
+                                <h3>JORDAN 1 HIGH SILVER TOE</h3>
+                            </a>
+                            <p class="price-product">
+                                <span>5.750.000 VNĐ</span>
                             </p>
                             <span class="best">best</span>
                             <span class="new">new</span>
@@ -138,93 +194,109 @@
                 <div class="product-item">
                     <div class="box-product">
                         <a href="">
-                            <img src="./assets/img/product-img.jpg" alt="">
+                            <img src="./assets/img/s7.jpg" alt="">
                         </a>
                         <span class="view-detail">xem trước</span>
-
                         <div class="product-description">
                             <a href="">
-                                <h3>AF1 GUCCI STYLE</h3>
+                                <h3>JORDAN 1 MID UNIVERSITY GOLD</h3>
                             </a>
                             <p class="price-product">
-                                <span>3.800.000 VNĐ</span>
+                                <span>4.600.000 VNĐ</span>
+                            </p>
+                            <span class="best">best</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="box-product">
+                        <a href="">
+                            <img src="./assets/img/s8.jpg" alt="">
+                        </a>
+                        <span class="view-detail">xem trước</span>
+                        <div class="product-description">
+                            <a href="">
+                                <h3>JORDAN 1 MID METALLIC GOLD</h3>
+                            </a>
+                            <p class="price-product">
+                                <span>4.800.000 VNĐ</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div class="box-product">
+                        <a href="">
+                            <img src="./assets/img/s9.jpg" alt="">
+                        </a>
+                        <span class="view-detail">xem trước</span>
+                        <div class="product-description">
+                            <a href="">
+                                <h3>AF 1 SHADOW "CASHMERE"</h3>
+                            </a>
+                            <p class="price-product">
+                                <span>3.050.000 VNĐ</span>
+                            </p>
+                            <span class="new">new</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-item ">
+                    <div class="box-product">
+                        <a href="">
+                            <img src="./assets/img/s10.jpg" alt="">
+                        </a>
+                        <span class="view-detail">xem trước</span>
+                        <div class="product-description">
+                            <a href="">
+                                <h3>AF 1 GLACIER BLUE</h3>
+                            </a>
+                            <p class="price-product">
+                                <span>3.000.000 VNĐ</span>
                             </p>
                             <span class="best">best</span>
                             <span class="new">new</span>
                         </div>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item ">
                     <div class="box-product">
                         <a href="">
-                            <img src="./assets/img/product-img.jpg" alt="">
+                            <img src="./assets/img/s11.jpg" alt="">
                         </a>
                         <span class="view-detail">xem trước</span>
+                        <div class="product-description">
+                            <a href="">
+                                <h3>AF 1 SHADOW PIXEL SWOOSH</h3>
+                            </a>
+                            <p class="price-product">
+                                <span>3.250.000 VNĐ</span>
+                            </p>
+                            <span class="new">new</span>
 
-                        <div class="product-description">
-                            <a href="">
-                                <h3>AF1 GUCCI STYLE</h3>
-                            </a>
-                            <p class="price-product">
-                                <span>3.800.000 VNĐ</span>
-                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="product-item">
+                <div class="product-item ">
                     <div class="box-product">
                         <a href="">
-                            <img src="./assets/img/product-img.jpg" alt="">
-                        </a>
-                        <span class="view-detail">xem trước</span>
-
-                        <div class="product-description">
-                            <a href="">
-                                <h3>AF1 GUCCI STYLE</h3>
-                            </a>
-                            <p class="price-product">
-                                <span>3.800.000 VNĐ</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-item">
-                    <div class="box-product">
-                        <a href="">
-                            <img src="./assets/img/product-img.jpg" alt="">
+                            <img src="./assets/img/s12.jpg" alt="">
                         </a>
                         <span class="view-detail">xem trước</span>
                         <div class="product-description">
                             <a href="">
-                                <h3>AF1 GUCCI STYLE</h3>
+                                <h3>AF 1 VALENTINE DAY</h3>
                             </a>
                             <p class="price-product">
-                                <span>3.800.000 VNĐ</span>
+                                <span>5.450.000 VNĐ</span>
                             </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-item">
-                    <div class="box-product">
-                        <a href="">
-                            <img src="./assets/img/product-img.jpg" alt="">
-                        </a>
-                        <span class="view-detail">xem trước</span>
-                        <div class="product-description">
-                            <a href="">
-                                <h3>AF1 GUCCI STYLE</h3>
-                            </a>
-                            <p class="price-product">
-                                <span>3.800.000 VNĐ</span>
-                            </p>
+                            <span class="new">new</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="btn-all-products">
-                <a href="">
-                    xem tất cả sản phẩm
-                </a>
+                <a href="">Xem Tất Cả Sản Phẩm</a>
             </div>
         </div>
         <div class="commit">
@@ -266,34 +338,35 @@
             </div>
             <div class="modal-right">
                 <p class="modal-title"">AF1 GUCCI STYLE</p>
-                <div class="modal-desc">
+                <div class=" modal-desc">
                     Nike Air Force 1 Custom By You - Phối màu Gucci
-                    <p></p>
-                    Sản phẩm Full box chính hãng
-                    <p></p>
-                    Bản Custom từ Nike.com , các bạn không cần chờ 4-6 tuần nay đã có hàng sẵn
-                    <p></p>
-                    Mã sản phẩm: AQ3778-994
-                    <p></p>
-                    Giá:<strong>3.800.000đ</strong>
-                    <p></p>
-                    Lượt xem: 6895
-                    <p></p>
-                    <div class="modal-btn">
-                        <a href="" class="modal-add-btn">
-                            <i class="fa-solid fa-bag-shopping"></i>
-                            thêm vào giỏ hàng
-                        </a>
-                        <a href="" class="modal-buy-btn">
-                            <i class="fa-solid fa-bag-shopping"></i>
-                            đặt hàng
-                        </a>
-                    </div>
+                <p></p>
+                Sản phẩm Full box chính hãng
+                <p></p>
+                Bản Custom từ Nike.com , các bạn không cần chờ 4-6 tuần nay đã có hàng sẵn
+                <p></p>
+                Mã sản phẩm: AQ3778-994
+                <p></p>
+                Giá:<strong>3.800.000đ</strong>
+                <p></p>
+                Lượt xem: 6895
+                <p></p>
+                <div class="modal-btn">
+                    <a href=""  class="modal-add-btn">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        thêm vào giỏ hàng
+                    </a>
+                    <a href="" class="modal-buy-btn">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        đặt hàng
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+    </div>
     <script>
+        // Modal
         const viewBtns = document.querySelectorAll('.view-detail');
         const modal = document.querySelector('.modal');
         const modalClose = document.querySelector('.modal-close');
@@ -302,22 +375,28 @@
         function showViewDetail() {
             modal.classList.add('open');
         }
-        
         // Ẩn modal mua vé (gỡ bỏ class open của modal)
         function hideViewDetail() {
             modal.classList.remove('open');
         }
-
-
         // lặp qua từng thẻ button và nghe sự kiện click
         for (const viewBtn of viewBtns) {
-             viewBtn.addEventListener('click', showViewDetail)
+            viewBtn.addEventListener('click', showViewDetail)
         }
-
-
         // nghe sự kiện click vào button close
         modalClose.addEventListener('click', hideViewDetail);
 
+        //count cart 
+        var btnTargetCount = document.getElementsByClassName('modal-add-btn');
+        var count = document.getElementsByClassName('count-cart')
+        
+        function addItem () {
+            count.innerHTML = ++counter;
+            return counter;
+        }
+
+
     </script>
 </body>
+
 </html>

@@ -103,6 +103,19 @@ body {
     color: red;
 }
 
+.cart-icon .count-cart {
+    position: absolute;
+    background: red;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    border: 50%;
+    border-radius: 50%;
+    text-align: center;
+    right: -5px;
+    line-height: 16px;
+}
+
 #slider {
     padding-top: 50%;
     background: #fff url('/assets/img/slider.jpg') top center / cover no-repeat;
@@ -154,7 +167,6 @@ body {
     margin: 0 20px;
 }
 
-
 .product .product-title h4 {
     position: absolute;
     top: calc(50% - 11px);
@@ -201,7 +213,6 @@ body {
 .box-product img:hover {
     transform: scale(1.1);
 }
-
 
 .view-detail {
     cursor: pointer;
@@ -396,8 +407,8 @@ body {
 }
 
 .btn-all-products a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
     background-color: #333333;
     text-transform: uppercase;
     padding: 8px 48px;
@@ -405,6 +416,7 @@ body {
 }
 
 .btn-all-products a:hover {
+    cursor: pointer;
     background-color: #fff;;
     color: #333333;
 }
@@ -412,8 +424,7 @@ body {
 .commit {
     margin-top: 32px;
     padding: 40px 0px 50px 0px;
-    background: url('/assets/img/commit-img.jpg') no-repeat;
-    background-size: 100% 111%;
+    background: #000;
 }
 
 .commit-title {
