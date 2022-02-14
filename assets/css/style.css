@@ -164,13 +164,13 @@ body {
 }
 
 .product {
-    margin: 0 20px;
+    margin: 0 32px;
 }
 
 .product .product-title h4 {
     position: absolute;
     top: calc(50% - 11px);
-    font-size: 24px;
+    font-size: 28px;
     line-height: 22px;
     color: #000;
     text-transform: uppercase;
@@ -178,9 +178,9 @@ body {
 }
 
 .product .product-title span {
-    font-size: 68px;
+    font-size: 72px;
     line-height: 62px;
-    color: #c7c7c72e;
+    color: #7b73731f;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -430,7 +430,7 @@ body {
 .commit-title {
     color: #fff;   
     font-weight: 700;
-    font-size: 20px;
+    font-size: 28px;
     margin-left: 60px;
     text-transform: uppercase;
     text-shadow: 0 0 1px #000;
@@ -458,12 +458,13 @@ body {
 .sale .sale-title {
     position: relative;
     margin-top: 24px;
+    margin-left: 14px;
 }
 
 .sale .sale-title h4 {
     position: absolute;
     top: calc(50% - 11px);
-    font-size: 24px;
+    font-size: 28px;
     line-height: 22px;
     color: #000;
     text-transform: uppercase;
@@ -471,9 +472,9 @@ body {
 }
 
 .sale .sale-title span {
-    font-size: 68px;
+    font-size: 72px;
     line-height: 62px;
-    color: #c7c7c72e;
+    color: #7b73731f;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -502,6 +503,58 @@ body {
     color: gray;
 }
 
+.tendency {
+    margin: 32px 20px;
+    position: relative;
+}
+
+.tendency .tendency-title {
+    margin-bottom: 24px;
+    margin-left: 14px;
+}
+
+.tendency .tendency-title h4{
+    position: absolute;
+    top: 22px;
+    font-size: 28px;
+    line-height: 22px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tendency .tendency-title span {
+    font-size: 72px;
+    line-height: 62px;
+    color: #7b73731f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tendency .tendency-content {
+    display: flex;
+}
+
+.box-news {
+    margin: 0 20px;
+}
+
+.box-news .news-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 8px 0 12px;
+    cursor: pointer;
+}
+
+.box-news:hover .news-title {
+    color: red;
+}
+
+.box-news .news-time {
+    font-size: 14px;
+    color: #a19f9f;
+}
+
 .footer {
     position: relative;
     margin-bottom: 0px;
@@ -510,7 +563,6 @@ body {
 }
 
 .footer .footer-article {
-    /* position: relative; */
     background: #000000;
     color: #fff;
     padding: 30px 0px;
@@ -565,7 +617,13 @@ body {
     margin-top: 60px;
 }
 
-.footer-3 .link-fanpage:hover {
+.footer-3 .link-fanpage {
     opacity: 0.9;
 }
+
+.footer-3 .link-fanpage:hover {
+    opacity: 1;
+}
+
+
 
