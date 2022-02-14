@@ -118,7 +118,7 @@ body {
 
 #slider {
     padding-top: 50%;
-    background: #fff url('/assets/img/slider.jpg') top center / cover no-repeat;
+    background: url('/assets/img/slider.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content {
