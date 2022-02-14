@@ -180,7 +180,7 @@ body {
 .product .product-title span {
     font-size: 68px;
     line-height: 62px;
-    color: #9999992e;
+    color: #c7c7c72e;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -446,3 +446,126 @@ body {
 .commit-desc .commit-item {
     color: #fff;
 }
+
+.sale {
+    margin: 32px 20px;
+}
+
+.sale .product-content {
+    margin-top: 24px;
+}
+
+.sale .sale-title {
+    position: relative;
+    margin-top: 24px;
+}
+
+.sale .sale-title h4 {
+    position: absolute;
+    top: calc(50% - 11px);
+    font-size: 24px;
+    line-height: 22px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sale .sale-title span {
+    font-size: 68px;
+    line-height: 62px;
+    color: #c7c7c72e;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.sale .product-item {
+    position: relative;
+}
+
+.sale .price-per {
+    position: absolute;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    width: 50px;
+    background: #ffcc00;
+    color: #fff;
+    line-height: 35px;
+    text-align: center;
+    top: 0;
+    right: 0;
+}
+
+.sale .price-old {
+    padding-left: 10px;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.footer {
+    position: relative;
+    margin-bottom: 0px;
+    background: #000000;
+
+}
+
+.footer .footer-article {
+    /* position: relative; */
+    background: #000000;
+    color: #fff;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-1 img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top
+}
+
+.footer-1 .info-footer {
+    line-height: 36px;
+    margin-top: 24px;
+    font-size: 15px;
+    position: absolute;
+}
+
+.footer-2 {
+    margin-right: 80px;
+}
+
+.social {
+    position: absolute;
+    top: 82px;
+    font-size: 24px;
+}
+
+.social i {
+    padding: 4px;
+}
+
+.social i:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.title-footer {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 16px;
+    top: 42px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer-3 .link-fanpage img  {
+    width: 300px;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.footer-3 .link-fanpage:hover {
+    opacity: 0.9;
+}
+
